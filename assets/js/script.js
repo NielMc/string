@@ -6,5 +6,5 @@ window.addEventListener("DOMContentLoaded", function() {
     console.log("Firing message to parent");
 
     // signal the parent that we're loaded.
-    window.parent.postMessage(simulation, "*")
+    window.parent.postMessage(simulation, "https://learn.codeinstitute.net")
 }, false);
